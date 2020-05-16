@@ -1,0 +1,17 @@
+{
+  "name": "http2-koa",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matthbo",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "koa": "^2.11.0",
+    "koa-route": "^3.2.0",
+    "koa-sendfile": "^2.0.1"
+  }
+}
