@@ -9,12 +9,13 @@ const express = require('express'),
     fs = require('fs'),
     app = express();
 
+app.all('/', (req, res) => res.send({ status: "Success", silly_html: "https://localhost:8000/html" }))
 
-app.get('/', (req, res) => res.send('Hello World!'))
+app.all('/html', (req, res) => res.sendFile(path.join(__dirname + '/index.html')))
 
 
 http2.createSecureServer({
     key: fs.readFileSync('./tls/localhost.key'),
     cert: fs.readFileSync('./tls/localhost.crt'),
     allowHTTP1: true
-}, app).listen(8000, () => console.log('Example app listening at https://localhost:8000'));
+}, app).listen(8000, () => console.log('Started Express server on https://localhost:8000'));
