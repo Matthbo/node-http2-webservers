@@ -1,3 +1,8 @@
+//
+// !! IMPORTANT: This use the 'node-spdy' instead of the native http2 module !!
+// Express http/2 PR: https://github.com/expressjs/express/pull/3730
+// 
+
 const express = require('express'),
     fs = require('fs'),
     spdy = require('spdy'),
