@@ -6,6 +6,7 @@ _Last updated on: May 18th, 2020_
 
 Engine          | HTTP/2 support    | comment
 ------          | -----             | -------
+Adonis          | Yes               |
 Express         | [Using SPDY](express/server-spdy.js)  | [HTTP/2 support PR](https://github.com/expressjs/express/pull/3730)
 Hapi            | Yes
 Koa             | Yes
