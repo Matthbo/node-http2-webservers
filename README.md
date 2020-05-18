@@ -6,8 +6,10 @@ _Last updated on: May 18th, 2020_
 
 Engine          | HTTP/2 support    | comment
 ------          | -----             | -------
-Express         | [Using SPDY](express/server-spdy.js)
+Express         | [Using SPDY](express/server-spdy.js)  | [HTTP/2 support PR](https://github.com/expressjs/express/pull/3730)
 Hapi            | Yes
 Koa             | Yes
-Nest            | Using SPDY    | Uses Express
-Sails           | No            | Uses Express but is barely configurable
+LoopBack        | No                | Uses Express but server configuration is limited
+Nest            | Using SPDY        | Uses Express
+Sails           | No                | Uses Express but server configuration is limited
+Total           | Using SPDY        | HTTP2 support will be added in a futere release (v4)
