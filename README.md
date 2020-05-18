@@ -12,5 +12,7 @@ Hapi            | Yes
 Koa             | Yes
 LoopBack        | No                | Uses Express but server configuration is limited
 Nest            | Using SPDY        | Uses Express
+Restify         | Yes
 Sails           | No                | Uses Express but server configuration is limited
+Strapi          | No                | Uses Koa but server configuration is limited
 Total           | Using SPDY        | HTTP2 support will be added in a futere release (v4)
