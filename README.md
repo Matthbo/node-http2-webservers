@@ -25,7 +25,7 @@ Adding a reverse proxy means having another dependency to work with and may limi
 Some applications (like gateways or load balacers) made in Node require a direct connection to the client and thus profit by using frameworks that work with Node's native HTTP modules.
 
 #### What are the benefits of HTTP/2
-[Google has a detailt page about this](https://developers.google.com/web/fundamentals/performance/http2). \
+[Google has a detailed page about this](https://developers.google.com/web/fundamentals/performance/http2). \
 While it fixes workarounds made in HTTP/1.1 it isn't backwards compatible with HTTP/1.x. Node has a compatibility API that still allows HTTP/1.x connections, as does the [SPDY package](https://github.com/spdy-http2/node-spdy).
 
 #### Framework XX isn't in this list
