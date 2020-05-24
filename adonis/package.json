@@ -1,6 +1,6 @@
 {
-  "name": "adonis-api-app",
-  "version": "4.1.0",
+  "name": "http2-adonis",
+  "version": "1.0.0",
   "adonis-version": "4.1.0",
   "description": "Adonisjs boilerplate for API server with pre-configured JWT",
   "main": "index.js",
@@ -27,6 +27,6 @@
   },
   "devDependencies": {},
   "autoload": {
-    "App": "./app"
+    "App": "./server"
   }
 }
