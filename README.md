@@ -12,6 +12,7 @@ Hapi            | Yes
 Koa             | Yes
 LoopBack        | No                | Uses Express but server configuration is limited
 Nest            | Using SPDY        | Uses Express
+Restana         | Yes
 Restify         | Yes
 Sails           | No                | Uses Express but server configuration is limited
 Strapi          | No                | Uses Koa but server configuration is limited

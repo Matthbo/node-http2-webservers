@@ -1,0 +1,15 @@
+{
+  "name": "http2-restana",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matthbo",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "restana": "^4.6.1"
+  }
+}
