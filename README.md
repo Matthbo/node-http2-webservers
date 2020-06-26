@@ -2,7 +2,7 @@
 Examples of Node webserver engines using HTTP/2 protocol
 
 ## Compatability table
-_Last updated on: May 18th, 2020_
+_Last updated on: June 26th, 2020_
 
 Framework          | HTTP/2 support    | comment
 ------          | -----             | -------
