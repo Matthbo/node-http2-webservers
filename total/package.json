@@ -11,6 +11,6 @@
   "license": "UNLICENSED",
   "dependencies": {
     "spdy": "^4.0.2",
-    "total.js": "^3.4.3"
+    "total.js": "^3.4.7"
   }
 }
